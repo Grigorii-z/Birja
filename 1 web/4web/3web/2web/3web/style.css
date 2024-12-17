@@ -1,0 +1,278 @@
+.butm_m{
+text-decoration: none;
+}
+.but1{
+order: 1;
+margin-right: 30px;
+position: absolute;
+ top: 210px;
+ left: 425px;
+ transform: translate(-50%, -50%);
+}
+.but1_1{   
+font-size: 30px;
+color: white;   
+text-decoration: none;   
+width: 80px;
+height: 60px;
+display: block;
+text-align: center;
+line-height: 60px;    
+position: relative;
+transition: .5s;
+overflow: hidden;
+}
+.but1_1::before,
+.but1_1::after {
+ position: absolute;
+ content:'';
+ width: 100%;
+ height: 2px;
+ background: white;
+ top: 50px;
+ left: -100%;
+ opacity: .5;
+ transition: .3s;
+ z-index: -1;
+}
+.but1_1::after {
+ opacity: 1;
+ transition-delay: .2s;
+}
+.but1_1:hover {
+ color: #fff;
+}
+.but1_1:hover::before,
+.but1_1:hover::after {
+ left: 0;
+}
+
+.but2{
+order: 1;
+margin-right: 30px;
+position: absolute;
+ top: 210px;
+ left: 650px;
+ transform: translate(-50%, -50%);
+}
+.but2_2{   
+font-size: 30px;
+color: white;   
+text-decoration: none;   
+width: 100%;
+height: 60px;
+display: block;
+text-align: center;
+line-height: 60px;    
+position: relative;
+transition: .5s;
+overflow: hidden;
+}
+.but2_2::before,
+.but2_2::after {
+ position: absolute;
+ content:'';
+ width: 100%;
+ height: 2px;
+ background: white;
+ top: 50px;
+ left: -100%;
+ opacity: .5;
+ transition: .3s;
+ z-index: -1;
+}
+.but2_2::after {
+ opacity: 1;
+ transition-delay: .2s;
+}
+.but2_2:hover {
+ color: #fff;
+}
+.but2_2:hover::before,
+.but2_2:hover::after {
+ left: 0;
+}
+
+.but3{
+order: 1;
+margin-right: 30px;
+position: absolute;
+ top: 210px;
+ left: 880px;
+ transform: translate(-50%, -50%);
+}
+.but3_3{   
+font-size: 30px;
+color: white;   
+text-decoration: none;   
+width: 100%;
+height: 60px;
+display: block;
+text-align: center;
+line-height: 60px;    
+position: relative;
+transition: .5s;
+overflow: hidden;
+}
+.but3_3::before,
+.but3_3::after {
+ position: absolute;
+ content:'';
+ width: 100%;
+ height: 2px;
+ background: white;
+ top: 50px;
+ left: -100%;
+ opacity: .5;
+ transition: .3s;
+ z-index: -1;
+}
+.but3_3::after {
+ opacity: 1;
+ transition-delay: .2s;
+}
+.but3_3:hover {
+ color: #fff;
+}
+.but3_3:hover::before,
+.but3_3:hover::after {
+ left: 0;
+}
+
+.but4{
+order: 1;
+margin-right: 30px;
+position: absolute;
+ top: 2115px;
+ left: 425px;
+ transform: translate(-50%, -50%);
+}
+.but4_4{   
+font-size: 30px;
+color: white;   
+text-decoration: none;   
+width: 80px;
+height: 60px;
+display: block;
+text-align: center;
+line-height: 60px;    
+position: relative;
+transition: .5s;
+overflow: hidden;
+}
+.but4_4::before,
+.but4_4::after {
+ position: absolute;
+ content:'';
+ width: 100%;
+ height: 2px;
+ background: white;
+ top: 50px;
+ left: -100%;
+ opacity: .5;
+ transition: .3s;
+ z-index: -1;
+}
+.but4_4::after {
+ opacity: 1;
+ transition-delay: .2s;
+}
+.but4_4:hover {
+ color: #fff;
+}
+.but4_4:hover::before,
+.but4_4:hover::after {
+ left: 0;
+}
+
+.but5{
+order: 1;
+margin-right: 30px;
+position: absolute;
+ top: 2115px;
+ left: 650px;
+ transform: translate(-50%, -50%);
+}
+.but5_5{   
+font-size: 30px;
+color: white;   
+text-decoration: none;   
+width: 100%;
+height: 60px;
+display: block;
+text-align: center;
+line-height: 60px;    
+position: relative;
+transition: .5s;
+overflow: hidden;
+}
+.but5_5::before,
+.but5_5::after {
+ position: absolute;
+ content:'';
+ width: 100%;
+ height: 2px;
+ background: white;
+ top: 50px;
+ left: -100%;
+ opacity: .5;
+ transition: .3s;
+ z-index: -1;
+}
+.but5_5::after {
+ opacity: 1;
+ transition-delay: .2s;
+}
+.but5_5:hover {
+ color: #fff;
+}
+.but5_5:hover::before,
+.but5_5:hover::after {
+ left: 0;
+}
+
+.but6{
+order: 1;
+margin-right: 30px;
+position: absolute;
+ top: 2115px;
+ left: 880px;
+ transform: translate(-50%, -50%);
+}
+.but6_6{   
+font-size: 30px;
+color: white;   
+text-decoration: none;   
+width: 100%;
+height: 60px;
+display: block;
+text-align: center;
+line-height: 60px;    
+position: relative;
+transition: .5s;
+overflow: hidden;
+}
+.but6_6::before,
+.but6_6::after {
+ position: absolute;
+ content:'';
+ width: 100%;
+ height: 2px;
+ background: white;
+ top: 50px;
+ left: -100%;
+ opacity: .5;
+ transition: .3s;
+ z-index: -1;
+}
+.but6_6::after {
+ opacity: 1;
+ transition-delay: .2s;
+}
+.but6_6:hover {
+ color: #fff;
+}
+.but6_6:hover::before,
+.but6_6:hover::after {
+ left: 0;
+}

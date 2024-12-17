@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<title>Metavzor</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+
+		<link rel="stylesheet" href="scc1web.css"/>
+
+		<meta charset="utf-8">
+		<style>
+			/* Стили для выпадающего меню */
+			.burger-menu {
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				z-index: 1000;
+			}
+
+			.burger-menu button {
+				background-color: #333;
+				color: white;
+				border: none;
+				padding: 10px;
+				cursor: pointer;
+				font-size: 16px;
+				border-radius: 4px;
+			}
+
+			.burger-menu-content {
+				display: none;
+				position: absolute;
+				top: 40px;
+				right: 0;
+				background-color: #f9f9f9;
+				box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+				border-radius: 4px;
+				z-index: 1000;
+				min-width: 200px;
+			}
+
+			.burger-menu-content a {
+				color: black;
+				padding: 12px 16px;
+				text-decoration: none;
+				display: block;
+				border-bottom: 1px solid #ddd;
+			}
+
+			.burger-menu-content a:last-child {
+				border-bottom: none;
+			}
+
+			.burger-menu-content a:hover {
+				background-color: #f1f1f1;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="wrapper"> 
+			<div class="burger-menu">
+				<button onclick="toggleMenu()">Меню</button>
+				<div class="burger-menu-content" id="burgerMenu">
+					<a href="4web\4web.html">Биржа</a>
+					<a href="3web\3web.html">О Metavzor</a>
+					<a href="2web\2web.html">FAQ</a>
+				</div>
+			</div>		
+			<div class="content">
+				<div class="shapka">
+					<div class="container">
+						<div class="shapka__row">
+							<div class="shapka__metavzor">
+								<div class="shapka__title">Metavzor</div>
+							</div>
+							<div class="shapka__mon1">
+								<img src="mon22.png">
+							</div>
+							<div class="shapka__mon2">
+								<img src="mon11.png">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu">
+					<div class="container">
+						<div class="menu__column">
+							<div class="menu__line">
+								<img src="line.png">
+							</div>
+							<div class="menu__row">
+								<div class="birga">
+									<a href ="4web\4web.html" class="menu__birga">Биржа</a>
+								</div>							
+								<div class="about">
+									<a href ="3web\3web.html" class="menu_about">О Metavzor</a>
+								</div>
+								<div class="faq">
+									<a href = "2web\2web.html" class="menu__faq">FAQ</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="fon">
+				<div class="container">
+					<div class="fon__img">
+						<img src="miniLine.png">
+				    </div>
+				</div> 
+				</div>
+			</div>
+			<div class="it">
+				<div class="container">
+					<div class="it__meta">
+						<div class="it__title">Metavzor - создаём прогресс</div>
+					</div>
+				</div>
+			</div>
+			<footer class="footer">
+				<div class="container">
+					<div class="footer__row"> 
+						<div class="footer__text">Григорий &#169</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script>
+			function toggleMenu() {
+				const menu = document.getElementById('burgerMenu');
+				menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+			}
+		</script>
+	</body>
+
+</html>
